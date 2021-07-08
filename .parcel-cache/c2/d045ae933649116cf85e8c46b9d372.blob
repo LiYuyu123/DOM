@@ -1,0 +1,14 @@
+//let div=document.createElement("div")
+const div=dom.create("<div>new</div>")
+console.log(div)
+dom.before(kw,div)
+const div2=dom.create("<span>1</span>")
+dom.wrap(li,div2)
+console.log(dom.empty(window.empty))
+dom.attr(kw,"title","li")
+const title=dom.attr(kw,"title")
+
+console.log(`title:${title}`)
+
+dom.text(kw,"傻逼鱼鱼")
+console.log(dom.text(kw))

@@ -1,0 +1,4 @@
+//let div=document.createElement("div")
+const div=dom.create("<div>new</div>")
+console.log(div)
+dom.after(kw,div)

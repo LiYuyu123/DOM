@@ -1,0 +1,5 @@
+window.dom={
+    dom.create(){
+        
+    }
+}

@@ -1,0 +1,6 @@
+//let div=document.createElement("div")
+const div=dom.create("<div>new</div>")
+console.log(div)
+dom.before(kw,div)
+const div2=dom.create("<span>1</span>")
+dom.wrap()

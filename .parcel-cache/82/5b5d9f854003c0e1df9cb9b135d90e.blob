@@ -1,0 +1,6 @@
+window.dom={
+    create(){
+       const container=document.createElement("template")
+       
+    }
+}

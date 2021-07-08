@@ -1,0 +1,11 @@
+window.dom={
+    create(string){
+       const container=document.createElement("template")
+       container.innerHTML=string.trim()
+       r
+       eturn container.content.firstChild
+    }
+    after(node,node2){
+        node.parentNode.insertBefore(node2,node.nextSibling)//insertBefore(node,node2)这样会把node2插入到node前面，如果想插入到后面
+    }
+}  
